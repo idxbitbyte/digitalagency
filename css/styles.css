@@ -1,0 +1,45 @@
+/*****************************/
+/*********** header nav **********/
+/*****************************/
+#team.owl-carousel .owl-item {
+	text-align: center;
+}
+#team .owl-dots {
+	text-align: center;
+}
+#team.owl-carousel .owl-nav {
+	display: flex;
+	justify-content: space-between;
+	position: absolute;
+	top: -31px;
+	right: 0;
+	width: 100%;
+}
+#team.owl-carousel .owl-dots.disabled,
+#team.owl-carousel .owl-nav.disabled {
+	display: block;
+}
+#team.owl-carousel button.owl-dot {
+	background-color: #ccc;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	margin: 0 5px;
+}
+#team.owl-carousel button.owl-dot.active {
+	background-color: orange;
+}
+/* media query */
+@media (max-width: 767px) {
+}
+
+/* contact from css */
+.error {
+	color: red;
+	margin-top: 10px;
+	font-size: 12px;
+}
+input.error,
+textarea.error {
+	border: 1px solid red;
+}
